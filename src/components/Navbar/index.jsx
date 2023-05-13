@@ -1,4 +1,5 @@
 import React from 'react'
+import CartWidget from '../CartWidget'
 
 function Navbar() {
   return (
@@ -14,10 +15,12 @@ function Navbar() {
             <a className='nav-list' href="">Categoría 1</a>
           </li>
           <li>
-            <a className='nav-list' href="">Categoría 1</a>
+            <a className='nav-list' href="">Categoría 2</a>
           </li>
           <li>
-            <a className='nav-list' href="">Categoría 1</a>
+            <a className='nav-list' href="">
+              <CartWidget/>
+            </a>
           </li>
         </ul>
       </nav>
